@@ -1,0 +1,143 @@
+# comment line that can be ignored
+#
+# File format:
+#
+# Node label code
+# Edge label label code
+# Ncode code weight
+# Ecode code weight
+# Start label
+# Target label
+#
+# Node types "-" has no impact/empty
+Ncode - 0
+# Define nodes and labels
+Node A -
+Node B -
+Node C -
+Node D -
+Node E -
+Node F -
+Node G -
+Node H -
+Node I -
+Node J -
+Node K -
+Node L -
+Node M -
+Node N -
+Node O -
+Node P -
+Node Q -
+Node R -
+Node S -
+Node T -
+Node U -
+Node V -
+Node W -
+Node X -
+Node Y -
+Node Z -
+Node a -
+Node b -
+Node c -
+Node d -
+Node e -
+Node f -
+Node g -
+Node h -
+Node i -
+Node j -
+Node k -
+Node l -
+Node m -
+Node n -
+Node o -
+# Edge types - is a standard 1 unit per edge, 2 = 2 units
+Ecode - 1
+Ecode 2 2
+# Define edges
+Edge A B 2
+Edge B A 2
+Edge A F -
+Edge F A -
+Edge B F -
+Edge B H -
+Edge H B -
+Edge G H -
+Edge H G -
+Edge G N -
+Edge N G -
+Edge M N -
+Edge N M -
+Edge M V 2
+Edge V M 2
+Edge V b -
+Edge b V -
+Edge b i -
+Edge i b -
+Edge b c -
+Edge c b -
+Edge c j -
+Edge j c -
+Edge j k -
+Edge k j -
+Edge V W 2
+Edge W V 2
+Edge W d -
+Edge d W -
+Edge e d -
+Edge d e -
+Edge e l -
+Edge l e -
+Edge S T 2
+Edge T S 2
+Edge T X -
+Edge X T -
+Edge X Y -
+Edge Y X -
+Edge Y f -
+Edge f Y -
+Edge f g -
+Edge g f -
+Edge f m -
+Edge m f -
+Edge g n -
+Edge n g -
+Edge n o -
+Edge o n -
+Edge h o -
+Edge o h -
+Edge H O -
+Edge O H -
+Edge O P 2
+Edge P O 2
+Edge P Y 2
+Edge Y P 2
+Edge P Q -
+Edge Q P -
+Edge Q R -
+Edge R Q -
+Edge R a 2
+Edge a R 2
+Edge Z a -
+Edge a Z -
+Edge Z U -
+Edge U Z -
+Edge Q K -
+Edge K Q -
+Edge K L -
+Edge L K -
+Edge L E -
+Edge E L -
+Edge K D -
+Edge D K -
+Edge C D 2
+Edge D C 2
+Edge C I -
+Edge I C -
+Edge I J -
+Edge J I -
+# Define Start and Target(s)
+Start C
+Target l
